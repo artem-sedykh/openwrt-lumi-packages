@@ -93,7 +93,6 @@ define Package/node-espruinohub/install
 	$(CP) $(PKG_INSTALL_DIR)/usr/lib/node_modules/EspruinoHub/{config.json,*.js} $(1)/opt/$(PKG_NPM_NAME)
 	$(CP) $(PKG_INSTALL_DIR)/usr/lib/node_modules/EspruinoHub/node_modules $(1)/opt/$(PKG_NPM_NAME)
 	$(CP) $(PKG_INSTALL_DIR)/usr/lib/node_modules/EspruinoHub/lib $(1)/opt/$(PKG_NPM_NAME)
-	$(CP) $(PKG_INSTALL_DIR)/usr/lib/node_modules/EspruinoHub/www $(1)/opt/$(PKG_NPM_NAME)
 	$(INSTALL_DIR) $(1)/etc/init.d
 	$(INSTALL_BIN) ./files/espruinohub.init $(1)/etc/init.d/espruinohub
 	$(INSTALL_DIR) $(1)/etc/espruinohub

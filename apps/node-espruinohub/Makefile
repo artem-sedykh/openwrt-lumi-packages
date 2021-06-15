@@ -10,12 +10,12 @@ include $(TOPDIR)/rules.mk
 
 PKG_NPM_NAME:=espruinohub
 PKG_NAME:=node-$(PKG_NPM_NAME)
-PKG_VERSION:=1
+PKG_VERSION:=2
 PKG_RELEASE:=1
 PKG_REV:=master
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/G1K/espruinohub.git
+PKG_SOURCE_URL:=https://github.com/artem-sedykh/EspruinoHub.git
 PKG_SOURCE_VERSION:=$(PKG_REV)
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_REV).tar.gz
 
